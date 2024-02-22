@@ -1,0 +1,39 @@
+body {
+  width: 50%;
+}
+#floats {
+  background-color: coral;
+}
+.container {
+  background-color: aliceblue;
+  padding: 20px;
+}
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.main {
+  width: 360px;
+  float: left;
+  background-color: aqua;
+  padding: 5px;
+  font-size: 2rem;
+}
+.side_bar {
+  width: 180px;
+  float: right;
+  background-color: slateblue;
+  padding: 10px;
+  margin: 10px;
+}
+#footer {
+  clear: both;
+  background-color: bisque;
+  margin: 30px;
+}
+
+img {
+  float: right;
+  margin: 00px 10px;
+}

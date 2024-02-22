@@ -1,0 +1,46 @@
+header {
+  background: linear-gradient(90deg, rgb(71, 118, 204), rgb(250, 145, 107));
+  /* position: fixed; */
+  /* top;-10% */
+  width: 100%;
+  margin-top: 20px;
+}
+
+header,
+.heading_tags {
+  display: flex;
+}
+
+header h1 {
+  padding-left: 100px;
+  font-size: 25px;
+  color: black;
+  margin-top: 20px;
+}
+
+header p {
+  padding-left: 15px;
+  padding-right: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+header a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+header a:hover {
+  text-decoration: underline;
+  color: whitesmoke;
+}
+
+header a:active {
+  text-decoration: underline;
+  color: blue;
+}
+
+.heading_tags {
+  margin-left: 15%;
+}

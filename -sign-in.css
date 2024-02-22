@@ -1,0 +1,90 @@
+body {
+  background-color: grey;
+  font-family: sans-serif;
+}
+.header {
+  /* margin: 0%; */
+  margin-top: -20px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+section.main {
+  background-color: white;
+  width: 350px;
+  height: 450px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 35px;
+  border-radius: 10px;
+  /* text-align: center; */
+  /* align-items: center; */
+}
+
+.heading {
+  text-align: center;
+}
+h1 {
+  color: rgb(90, 165, 214);
+}
+h1:hover {
+  color: rgb(40, 73, 145);
+}
+
+.heading h2 {
+  color: rgb(40, 73, 145);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 20px;
+  color: grey;
+  font-size: 15px;
+  font-style: bold;
+}
+
+input {
+  width: 100%;
+  height: 35px;
+  margin-top: 5px;
+  border: 0.2px solid rgba(161, 158, 158, 0.356);
+  border-radius: 10px;
+}
+
+form p {
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(40, 73, 145);
+}
+a:hover {
+  text-decoration: underline;
+}
+.Forgot_password {
+  margin-top: 30px;
+}
+
+#signup {
+  background-color: rgb(40, 73, 145);
+  color: azure;
+  font-family: sans-serif;
+  padding: 10px;
+  border: none;
+  width: 80px;
+  border-radius: 5px;
+  margin-left: 8rem;
+}
+#signup:hover {
+  color: rgb(40, 73, 145);
+  background-color: lightblue;
+}
+
+.last_p {
+  margin-top: 40px;
+  text-align: center;
+}

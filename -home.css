@@ -1,0 +1,108 @@
+body {
+  margin: auto;
+  background: linear-gradient(90deg, rgb(71, 118, 204), rgb(250, 145, 107));
+  /* color: ; */
+  color: whitesmoke;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+header {
+  margin-top: 20px;
+}
+main {
+  /* /* margin-left: 20%; */
+  margin-top: 10%;
+  padding-left: 15%;
+  padding-top: 2%;
+  line-height: 23px;
+}
+h1 {
+  font-family: cursive;
+}
+
+.text p {
+  width: 500px;
+  font-size: 14px;
+}
+
+section {
+  display: flex;
+  margin: auto;
+}
+img {
+  margin-left: 50%;
+}
+button {
+  height: 40px;
+  padding: 0px 15px 0px 15px;
+  border-radius: 20px;
+  border: 1px solid white;
+  margin: 20px 10px 0px 0px;
+  font-size: 12px;
+  background: none;
+  color: white;
+}
+#login:hover,
+button:hover {
+  background: white;
+  color: black;
+}
+#login {
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  background: none;
+  padding: 10px 15px;
+  /* border: 1px solid black; */
+}
+.arrows {
+  position: absolute;
+}
+
+.arrows p {
+  /* background-color: rgba(221, 109, 215, 0.4); */
+  /* opacity: 0.2; */
+  /* border: 1px solid black; */
+  width: 30px;
+  padding: 15px 3px 15px 5px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+#left_arrow {
+  background-color: rgba(43, 8, 40, 0.4);
+  position: relative;
+  top: -150px;
+  left: -200px;
+}
+
+#right_arrow {
+  background-color: rgba(99, 84, 20, 0.4);
+  position: relative;
+  top: -200px;
+  left: 1105px;
+}
+
+#left_arrow:hover {
+  background-color: white;
+  color: black;
+  /* font-weight: 1000; */
+}
+
+#right_arrow:hover {
+  background-color: white;
+  color: black;
+  /* font-weight: 1000; */
+}
+
+footer div {
+  /* overflow: hidden; */
+  background: url(../img/wave-bg1.png);
+  background-repeat: repeat-x;
+  height: 400px;
+}
+
+footer img {
+  background-repeat: repeat-x;
+}
